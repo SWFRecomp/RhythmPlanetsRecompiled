@@ -1,4 +1,7 @@
+.vs/
 RecompiledTags/
 RecompiledScripts/
 build/
 SWFModernRuntime.lib
+**runtime*.swf
+**.exe
