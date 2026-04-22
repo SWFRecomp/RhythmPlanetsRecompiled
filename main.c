@@ -11,7 +11,9 @@ int main()
 	app_context.version = SWF_VERSION;
 	
 	app_context.frame_funcs = frame_funcs;
+	
 	app_context.str_table = str_table;
+	app_context.str_len_table = str_len_table;
 	
 	app_context.width = FRAME_WIDTH;
 	app_context.height = FRAME_HEIGHT;
