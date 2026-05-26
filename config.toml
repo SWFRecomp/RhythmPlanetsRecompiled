@@ -1,5 +1,5 @@
 [input]
 prelude_swf_path = "runtime7.swf"
-path_to_swf = "call_math.swf"
+path_to_swf = "game.swf"
 output_tags_folder = "RecompiledTags"
 output_scripts_folder = "RecompiledScripts"
