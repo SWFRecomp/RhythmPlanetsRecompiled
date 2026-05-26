@@ -20,9 +20,18 @@ int main()
 	
 	app_context.stage_to_ndc = stage_to_ndc;
 	
+	app_context.exported_chars_count = EXPORTED_ASSETS_COUNT;
+	app_context.exported_char_ids = exported_char_ids;
+	app_context.exported_string_ids = exported_string_ids;
+	
 	app_context.bitmap_count = BITMAP_COUNT;
 	app_context.bitmap_highest_w = BITMAP_HIGHEST_W;
 	app_context.bitmap_highest_h = BITMAP_HIGHEST_H;
+	
+	app_context.bitmap_char_ids = bitmap_char_ids;
+	app_context.bitmap_ids = bitmap_ids;
+	
+	app_context.shape_data_exists = SHAPE_DATA_EXISTS;
 	
 	app_context.shape_data = (char*) shape_data;
 	app_context.shape_data_size = sizeof(shape_data);
